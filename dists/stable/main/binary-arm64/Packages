@@ -1,0 +1,139 @@
+Package: adaptation-xiaomi-merlin
+Version: 0.0.0+git20250211093714.d5e2969.bookworm
+Architecture: arm64
+Maintainer: Sanakhat Chari <zadigsm@outlook.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api29-phone, adaptation-xiaomi-merlin-configs (= 0.0.0+git20250211093714.d5e2969.bookworm)
+Filename: packages/adaptation-xiaomi-merlin_0.0.0+git20250211093714.d5e2969.bookworm_arm64.deb
+Size: 2144
+MD5sum: 1e46c5a17e44d56fd1f5045c271ce2ee
+SHA1: c4bb38822553040e464f69460b56ecf40682c6a3
+SHA256: 63fd10f51ae3299dffced12238ebd0270e02bace7a70e42446a6c4da1438e31d
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-merlin - metapackage
+
+Package: adaptation-xiaomi-merlin-configs
+Source: adaptation-xiaomi-merlin
+Version: 0.0.0+git20250211093714.d5e2969.bookworm
+Architecture: arm64
+Maintainer: Sanakhat Chari <zadigsm@outlook.com>
+Installed-Size: 93
+Filename: packages/adaptation-xiaomi-merlin-configs_0.0.0+git20250211093714.d5e2969.bookworm_arm64.deb
+Size: 12812
+MD5sum: 268187b58e976757525202b8fd243a0e
+SHA1: 673355f48522ce11f8a71aa221f88c1b982eb986
+SHA256: e37baf9cf052addd6cf118e5e5999b5ff182b0c5d61de50d818a7b3357192952
+Section: metapackages
+Priority: optional
+Description: Community adaptation for xiaomi-merlin - adaptation configurations
+
+Package: linux-bootimage-4.14.141-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 55399
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-4.14.141-xiaomi-merlin (= 0.0.0+git20220320165331.9bc366f.droidian)
+Filename: packages/linux-bootimage-4.14.141-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 55710784
+MD5sum: 817d3f1ffb04bcb1b91b499ba62b2ecb
+SHA1: ef498926344854754f64f19245eeee3ee70c8f87
+SHA256: c2d54a15360447294447704ed9460579607e5ecf0b7317d6027facd56b8d517a
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Android Boot Image
+ This package contains the Linux kernel for the Xiaomi Redmi Note 9 device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 2435
+Depends: linux-bootimage-4.14.141-xiaomi-merlin (= 0.0.0+git20220320165331.9bc366f.droidian)
+Filename: packages/linux-bootimage-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 2489112
+MD5sum: 984bcbf3b4a56e82291145040945057c
+SHA1: db19f04161cdb8861190cc87073933a18bb3e3f3
+SHA256: eb50d7a8a16ca725d9b5259da86c183d4d0fec07cc225d63e97e1ed8497cdd3b
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Xiaomi Redmi Note 9.
+
+Package: linux-headers-4.14.141-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 63364
+Depends: linux-image-4.14.141-xiaomi-merlin (= 0.0.0+git20220320165331.9bc366f.droidian)
+Filename: packages/linux-headers-4.14.141-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 11276392
+MD5sum: cf3888778adc59d28711146fb5da4845
+SHA1: bd1935afe63345437fd7e66127815469113535f4
+SHA256: f6b29f26198861f5b54a61c876f3e8d8ae8d5fb2af41e4b487aaf0819fb6d5a2
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Headers
+ This package contains the Linux kernel headers for the Xiaomi Redmi Note 9 device.
+
+Package: linux-headers-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 2435
+Depends: linux-headers-4.14.141-xiaomi-merlin (= 0.0.0+git20220320165331.9bc366f.droidian)
+Filename: packages/linux-headers-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 2489084
+MD5sum: 0861ed62e8796dc9f14e4d752eb58bfc
+SHA1: a84f707954089a077f1bf7e7762967195f57c5a3
+SHA256: 8c07e1d310692ea7ee742b111c1ac6c64fe25eb27a5f1d7ebcba1ed57e04ddc9
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 - Headers (latest)
+ This package depends to the latest kernel headers available for the Xiaomi Redmi Note 9.
+
+Package: linux-image-4.14.141-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 17792
+Filename: packages/linux-image-4.14.141-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 13389176
+MD5sum: 7b1256594cf63102982b3bcb99ff520b
+SHA1: ed3c23d0bea39dc1f986d9ef7f38a82ea62dbdd2
+SHA256: 27c2c6748f9402c7c45d52f1b0c9be98b0d90d2cce1ceb4056713e757122fde2
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9
+ This package contains the Linux kernel for the Xiaomi Redmi Note 9 device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-4.14.141-xiaomi-merlin package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-xiaomi-merlin
+Source: linux-android-xiaomi-merlin
+Version: 0.0.0+git20220320165331.9bc366f.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 2435
+Depends: linux-image-4.14.141-xiaomi-merlin (= 0.0.0+git20220320165331.9bc366f.droidian)
+Filename: packages/linux-image-xiaomi-merlin_0.0.0+git20220320165331.9bc366f.droidian_arm64.deb
+Size: 2489076
+MD5sum: 6105b1578deec26fcfa8786c223f2a90
+SHA1: fab23e5ae871453f97fa09eb6bf115386fcf0fdc
+SHA256: e034dc0ee1ad92aac0467cfba436304574da485a3d962e7f0d5937a409e7a5a6
+Section: kernel
+Priority: optional
+Description: Linux kernel for Xiaomi Redmi Note 9 (latest)
+ This package depends to the latest kernel image available for the Xiaomi Redmi Note 9.
+
